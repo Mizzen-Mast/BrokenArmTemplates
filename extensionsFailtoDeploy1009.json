@@ -193,7 +193,7 @@
             ],
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "[parameters('vmSize')]"
+                    "vmSize": "Standard_B4ms"
                 },
                 "osProfile": {
                     "computerName": "[variables('vmName')]",
