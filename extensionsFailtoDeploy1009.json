@@ -37,6 +37,7 @@
                 "description": "Location for all resources."
             }
         },
+        /* Leaving this in for when portal supports
         "vmSize": {
             "defaultValue": "Standard_B2ms",
             "type": "String",
@@ -44,6 +45,7 @@
                 "description": "Default VM Size"
             }
         },
+        */
         "storageUri": {
             "defaultValue": "[format('store{0}', uniqueString(resourceGroup().id))]",
             "type": "string",
@@ -65,7 +67,7 @@
         "subnetName": "Subnet",
         "subnetPrefix": "10.0.0.0/24",
         "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
-        "vmName": "ExtentionFail",
+        "vmName": "ExtensionFail",
         "virtualNetworkName": "MyVNET",
         "publicIPAddressName": "myPublicIP",
         "networkSecurityGroupName": "default-NSG"
