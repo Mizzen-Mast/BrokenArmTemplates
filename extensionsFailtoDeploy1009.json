@@ -95,7 +95,7 @@
                             "direction": "Inbound",
                             "destinationPortRange": "3389",
                             "protocol": "Tcp",
-                            "sourceAddressPrefix": "[parameters('yourHomeIP')]",
+                            "sourceAddressPrefix": "[parameters('yourIP')]",
                             "sourcePortRange": "*",
                             "destinationAddressPrefix": "*"
                         }
@@ -108,7 +108,7 @@
                             "direction": "Inbound",
                             "destinationPortRange": "22",
                             "protocol": "Tcp",
-                            "sourceAddressPrefix": "[parameters('yourHomeIP')]",
+                            "sourceAddressPrefix": "[parameters('yourIP')]",
                             "sourcePortRange": "*",
                             "destinationAddressPrefix": "*"
                         }
