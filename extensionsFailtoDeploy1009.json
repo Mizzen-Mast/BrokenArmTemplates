@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "metadata": {
         "description": "Exentions Fail to Deploy with error code 1009.",
-        "author": "Kyle Clayson",
-        "alias": "v-kclayson",
-        "TSG": "https://supportability.visualstudio.com/AzureIaaSVM/_wiki/wikis/AzureIaaSVM/556531",
-        "deploymentLinkInternal": "https://labbox.azurewebsites.net/api/Labbox?url=https://supportability.visualstudio.com/AzureIaaSVM/_git/Labbox?path=/SME/AGEX/powerShellNotRecognized.json"
+        "author": "",
+        "alias": "",
+        "TSG": "",
+        "deploymentLinkInternal": ""
     },
     "parameters": {
         "adminUsername": {
